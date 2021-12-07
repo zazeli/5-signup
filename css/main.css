@@ -24,7 +24,7 @@ body {
     float: left;
     padding: 40px;
     margin-top: 20px;
-    background-color: rgb(160, 133, 196);
+    background-color: rgb(79, 51, 117);
     color: #fff;
 
 }
@@ -55,4 +55,10 @@ body {
     padding: 60px;
     background-color: #fff;
 }
+
+.close {
+    display: inline-block;
+background-color: yellowgreen;
+}
+
 
