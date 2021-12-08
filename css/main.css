@@ -25,8 +25,12 @@ body {
     padding: 40px;
     margin-top: 20px;
     background-color: rgb(79, 51, 117);
+    background-image: url(../img/moon.png);
+    background-position: center;
+    background-size: cover;
     color: #fff;
 
+    height: 450px;
 }
 
 .main-title {
