@@ -9,17 +9,32 @@
     margin-bottom: 30px;
 }
 
+.form > .form-row:last-of-type {
+   margin-bottom: 0;
+}
+
 .form > .form-row > label {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 5px;
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 5px;
 }
 
 .form > .form-row > input {
-    display: inline-block;
-    width: 100%;
-    font-size: 19px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+   display: inline-block;
+   width: 100%;
+   font-size: 19px;
+   line-height: 30px;
+   border: none;
+   border-bottom: 2px solid #737396;
+}
+
+.form > .form-row > input:focus {
+  outline: none; background-color: #E2FFE3;
+ }
+ 
+
+.form input::placeholder {
+   color: #737396;
+   font-style: italic;
+   font-size: 18px;
 }
