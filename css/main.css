@@ -10,14 +10,18 @@ body * {
 
 body {
     background-color: #06152A;
+    position: relative;
+    height: 100vh;
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin-top: 80px;
-    margin-left: calc(50% - 400px);
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
 }
 
 .left-column {
