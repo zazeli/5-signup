@@ -5,7 +5,7 @@ _**Project**_
 
 Projet Educative
 
-[PUBLISED](zazeli.github.io/5-signup/)
+[PUBLISED](https://zazeli.github.io/signup-demo-project)
 
 Design: _Signup_
 
